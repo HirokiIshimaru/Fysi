@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 1720px;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","メイリオ",Meiryo,Osaka,sans-serif;
+    color:#3f3a34;
+    background-image: url("../images/background/haikei04.jpeg");
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 400px;
+    position: relative;
+}
+
+.slider{
+    width: 1500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.header-img{
+    width: 1500px;
+    height: 400px;
+    float: left;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.header-img:first-child{
+    opacity: 1;
+}
+
+.sliderwrapper{
+    width: 400%;
+    position: relative;
+    left: 0;
+    /* animation: slider 20s infinite ease;スピード */
+}
+
+@-webkit-keyframes slider{
+    0%{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    25%{
+    -webkit-transform: translateX(-1500px);
+    transform: translateX(-1500px);
+    }
+    50%{
+    -webkit-transform: translateX(-3000px);
+    transform: translateX(-3000px);
+    }
+    75%{
+    -webkit-transform: translateX(-4500px);
+    transform: translateX(-4500px);
+    }
+}
+
+@keyframes slider{
+    0%{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    25%{
+    -webkit-transform: translateX(-1500px);
+    transform: translateX(-1500px);
+    }
+    50%{
+    -webkit-transform: translateX(-3000px);
+    transform: translateX(-3000px);
+    }
+    75%{
+    -webkit-transform: translateX(-4500px);
+    transform: translateX(-4500px);
+    }
+}
+
+.logo-img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.95;
+}
+
+.logo-img:hover{
+    opacity: 0.8;
+}
+.form{
+    max-width: 1000px;
+    min-width:  400px;
+    height: 35px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.nav{
+    position: relative;
+    left: 220px;
+    top: 10px;
+    width: 1000px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul a{
+    color: #635245;
+    font-size: 26px;
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    border-bottom: solid 1px #d4c7bd;
+}
+
+
+.nav ul li{
+    line-height: 50px;
+}
+
+.nav ul a:hover{
+    color:lightgreen;
+}
+
+.main{
+    position: relative;
+    right: -225px;
+    width: 1000px;
+}
+
+.leftbox{
+    float: left;
+}
+
+.flower-img1{
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    left: -270px;
+    top: 60px;   
+}
+
+.flower-img2{
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    left: -220px;
+    top: 410px;
+}
+
+.centerbox{
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    color: #635245;
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+}
+
+.concept-title{
+    width: 300px;
+    height: 60px;
+    font-size: 50px;
+    color: #635245;
+    letter-spacing: 2px;
+    padding:100px 0 0 340px;
+}
+
+span{
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    color: #635245;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.concept-text{
+    line-height: 60px;
+    color: black;
+    font-size: 18px;
+    width: 500px;
+    height: 350px;
+    padding: 70px 0 0 250px;
+    float: left;
+}
+
+.rightbox{
+    float: left;
+}
+
+.flower-img3{
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    left: 680px;
+    top: 20px;
+}
+
+.flower-img4{
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    left: 700px;
+    top: 530px;
+}
+
+.news{
+    text-align: center;
+    clear: both;
+    padding-top: 100px;
+    position: relative;
+    right: -300px;
+    top: 330px;
+}
+
+.waku{
+    width: 1650px;
+    height: 120px;
+    background-color: beige;
+    position: relative;
+    right: 600px;
+    bottom: 65px;
+    z-index: 0;
+}
+
+.news-title{
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    width: 500px;
+    font-size: 50px;
+    color: #635245;
+    position: absolute;
+    right: 560px;
+    bottom: 280px;
+    letter-spacing: 5px;
+}
+
+.news-img{
+    position: absolute;
+    bottom: 30px;
+    left: -250px;
+}
+
+.newscontents{
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    position: absolute;
+    bottom: 75px;
+    left: 80px;
+    text-align: left;
+}
+
+.space{
+    letter-spacing: 1em;
+}
+
+.footer{
+    width: 1650px;
+    height: 50px;
+    background-color: #635245;
+    position: relative;
+    right: 0px;
+    top: 400px;
+}
+
+address{
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px 0 0 650px;
+}

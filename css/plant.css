@@ -1,0 +1,1361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 1900px;
+    text-align: center;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","メイリオ",Meiryo,Osaka,sans-serif;
+    color: #3f3a34;
+    overflow-x: hidden;
+    background-image: url("../images/background/haikei04.jpeg");
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    position: relative;
+}
+
+
+.logo-img{
+    position: absolute;
+    top: 0px;
+    left: 620px;
+    opacity: 0.95;
+}
+
+.logo-img:hover{
+    opacity: 0.8;
+}
+
+.form{
+    position: absolute;
+    top: 170px;
+    right: 210px;
+}
+
+.nav{
+    padding: 20px 0 50px 220px;
+    width: 1000px;
+    height: 80px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav ul a{
+    color: #635245;
+    font-size: 25px;
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    padding: 10px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    border-bottom: solid 1px #d4c7bd;
+}
+
+
+.nav ul li{
+    line-height: 50px;
+}
+
+.nav ul a:hover{
+    color:lightgreen;
+}
+
+p{
+    font-size: 17px;
+}
+
+.plant-images-list{
+    width: 100%;
+}
+
+.plant-images-line01{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 220px 20px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup01{
+    display: none;
+}
+
+#popup01:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.banjul{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 530px;
+    left: 600px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup02{
+    display: none;
+}
+
+#popup02:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup03{
+    display: none;
+}
+
+#popup03:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.plant-images-line02{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 220px;
+    margin-top: 220px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup01{
+    display: none;
+}
+
+#popup01:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup02{
+    display: none;
+}
+
+#popup02:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup03{
+    display: none;
+}
+
+#popup03:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.plant-images-line03{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 220px;
+    margin-top: 220px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup04{
+    display: none;
+}
+
+#popup04:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup05{
+    display: none;
+}
+
+#popup05:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup06{
+    display: none;
+}
+
+#popup06:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.plant-images-line04{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 220px;
+    margin-top: 220px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup07{
+    display: none;
+}
+
+#popup07:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup08{
+    display: none;
+}
+
+#popup08:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup09{
+    display: none;
+}
+
+#popup09:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+.popup{
+    display: none;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    margin: auto;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, .5);
+}
+
+#popup10{
+    display: none;
+}
+
+#popup10:checked + .popup{
+    display: block;
+}
+
+label{
+    display: block;
+    height: 40px;
+}
+
+.close{
+    position: relative;
+    top: 8px;
+    padding: 10px 370px;
+    background-color: lightgrey;
+    opacity: .8;
+}
+
+.plant-derails{
+    position: relative;
+}
+
+h2{
+    padding: 30px 510px 0 0;
+    border-bottom: solid 3px black; 
+}
+
+.image{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+
+.derails{
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.price{
+    font-size: 23px;
+    text-decoration: underline;
+    position: absolute;
+    top: 270px;
+    left: 580px;
+}
+
+.htgrow{
+    position: absolute;
+    top: 360px;
+    left: 160px;
+}
+
+.htgrow-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    border-right: solid 2px black;
+    padding-right: 20px;
+}
+
+.feature{
+    position: absolute;
+    top: 360px;
+    left: 580px;
+}
+
+.feature-content{
+    width: 350px;
+    position: absolute;
+    top: 400px;
+    left: 420px;
+}
+.footer{
+    width: 1650px;
+    height: 50px;
+    background-color: #635245;
+    position: relative;
+    right: 0px;
+    top: 400px;
+}
+
+address{
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px 200px 0 0;
+}

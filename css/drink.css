@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 1500px;
+    background-image: url("../images/background/haikei04.jpeg");
+    text-align: center;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","ＭＳ Ｐゴシック","メイリオ",Meiryo,Osaka,sans-serif;
+    color: #3f3a34;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    position: relative;
+}
+
+
+.logo-img{
+    position: absolute;
+    top: 0px;
+    left: 620px;
+    opacity: 0.95;
+}
+
+.logo-img:hover{
+    opacity: 0.8;
+}
+
+.form{
+    position: absolute;
+    top: 170px;
+    right: 210px;
+}
+
+.nav{
+    padding: 20px 0 50px 220px;
+    width: 1000px;
+    height: 80px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav ul a{
+    color: #635245;
+    font-size: 25px;
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    padding: 10px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    border-bottom: solid 1px #d4c7bd;
+}
+
+
+.nav ul li{
+    line-height: 50px;
+}
+
+.nav ul a:hover{
+    color:lightgreen;
+}
+
+.main{
+    width: 1000px;
+    margin: 0 220px 0 220px;
+}
+
+h1{
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+.drinkmenu{
+    height: 1000px;
+}
+
+.blendcoffee{
+    width: 800px;
+    height: 200px;
+    border: solid 1px black;
+    position: relative;
+    top: 70px;
+    left: 95px;
+    margin-bottom: 50px; 
+}
+
+.blendcoffee img{
+    position: absolute;
+    left: 0px;
+}
+
+.blendcoffee-name{
+    width: 530px;
+    height: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    position: relative;
+    left: 260px;
+}
+
+.price{
+    font-size: 18px;
+    width: 100px;
+    height: 110px;
+    position: relative;
+    left: 270px;
+    top: 23px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.bc-content{
+    width: 400px;
+    line-height: 35px;
+    font-size: 18px;
+    position: relative;
+    left: 390px;
+    bottom: 50px;
+}
+
+.icecoffee{
+    width: 800px;
+    height: 200px;
+    border: solid 1px black;
+    position: relative;
+    top: 70px;
+    left: 95px;
+    margin-bottom: 50px; 
+}
+
+.icecoffee img{
+    position: absolute;
+    left: 0px;
+}
+
+.icecoffee-name{
+    width: 530px;
+    height: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    position: relative;
+    left: 260px;
+}
+
+.ic-content{
+    width: 400px;
+    line-height: 35px;
+    font-size: 18px;
+    position: relative;
+    left: 390px;
+    bottom: 60px;
+}
+
+.cafelatte{
+    width: 800px;
+    height: 200px;
+    border: solid 1px black;
+    position: relative;
+    top: 70px;
+    left: 95px;
+    margin-bottom: 50px; 
+}
+
+.cafelatte img{
+    position: absolute;
+    left: 0px;
+}
+
+.cafelatte-name{
+    width: 530px;
+    height: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    position: relative;
+    left: 260px;
+}
+
+.cl-content{
+    width: 400px;
+    line-height: 35px;
+    font-size: 18px;
+    position: relative;
+    left: 390px;
+    bottom: 75px;
+}
+
+.cafeaulait{
+    width: 800px;
+    height: 200px;
+    border: solid 1px black;
+    position: relative;
+    top: 70px;
+    left: 95px;
+    margin-bottom: 50px; 
+}
+
+.cafeaulait img{
+    position: absolute;
+    left: 0px;
+}
+
+.cafeaulait-name{
+    width: 530px;
+    height: 30px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    position: relative;
+    left: 260px;
+}
+
+.cal-content{
+    width: 400px;
+    line-height: 35px;
+    font-size: 18px;
+    position: relative;
+    left: 390px;
+    bottom: 60px;
+}
+
+.up-button{
+    margin-top: 80px;
+}
+
+.footer{
+    width: 1440px;
+    height: 50px;
+    background-color: #635245;
+    margin-top: 100px;
+}
+
+address{
+    font-family: "century gothic","Josefin Sans",Futura,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 1440px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
